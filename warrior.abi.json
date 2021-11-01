@@ -1,0 +1,92 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getProtection",
+			"inputs": [
+				{"name":"_value","type":"int256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getAttackPower",
+			"inputs": [
+				{"name":"_value","type":"int256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "takeAttack",
+			"inputs": [
+				{"name":"_valueAttack","type":"int256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "attack",
+			"inputs": [
+				{"name":"_address","type":"address"},
+				{"name":"_pubkey","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "_defence",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_defence","type":"int256"}
+			]
+		},
+		{
+			"name": "_attack",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_attack","type":"int256"}
+			]
+		},
+		{
+			"name": "_health",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_health","type":"int256"}
+			]
+		},
+		{
+			"name": "_attakingAddress",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_attakingAddress","type":"address"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"_defence","type":"int256"},
+		{"name":"_attack","type":"int256"},
+		{"name":"_health","type":"int256"},
+		{"name":"_attakingAddress","type":"address"}
+	]
+}
